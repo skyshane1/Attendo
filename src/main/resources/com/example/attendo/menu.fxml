@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.attendo.MenuController">
+  <columnConstraints>
+    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Button alignment="CENTER" mnemonicParsing="false" onAction="#switchToSwipe" prefHeight="1600.0" prefWidth="800.0" styleClass="button1" text="SWIPE" textAlignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS">
+         <font>
+            <Font name="Inter Regular" size="48.0" />
+         </font></Button>
+      <Button alignment="CENTER" mnemonicParsing="false" onAction="#switchToFile" prefHeight="1600.0" prefWidth="800.0" styleClass="button2" text="IMPORT" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS">
+         <font>
+            <Font name="Inter Regular" size="48.0" />
+         </font></Button>
+      <Button alignment="CENTER" mnemonicParsing="false" onAction="#switchToView" prefHeight="1600.0" prefWidth="800.0" styleClass="button3" text="VIEW" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS">
+         <font>
+            <Font name="Inter Regular" size="48.0" />
+         </font></Button>
+   </children>
+    <stylesheets>
+       <URL value="@mainmenu.css" />
+     </stylesheets>
+</GridPane>

@@ -1,0 +1,28 @@
+.button {
+    -fx-background-radius: 0;
+    -fx-text-fill: #fcfcfc;
+}
+
+.button1 {
+    -fx-background-color: #00a6ff;
+}
+
+.button2 {
+    -fx-background-color: #006fff;
+}
+
+.button3 {
+    -fx-background-color: #0051ff;
+}
+
+.button1:hover {
+    -fx-background-color: #127db6;
+}
+
+.button2:hover {
+    -fx-background-color: #1256b6;
+}
+
+.button3:hover {
+    -fx-background-color: #1238b6;
+}
